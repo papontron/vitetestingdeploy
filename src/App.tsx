@@ -1,12 +1,9 @@
-import Button from "./components/Button.component";
+import DateCounter from "./DateCounter";
 
-const App = () => {
+export default function App() {
   return (
-    <>
-      <h1>wellcome</h1>
-      <Button $color="green">I am a button</Button>
-    </>
+    <div>
+      <DateCounter/>
+    </div>
   )
-};
-
-export default App;
+}

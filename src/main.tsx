@@ -1,5 +1,4 @@
 import { createRoot } from "react-dom/client";
+import "./index.css";
 import App from "./app";
-
-createRoot(document.querySelector("#root") as HTMLElement)
-.render(<App />);
+createRoot(document.getElementById("root") as HTMLElement).render(<App/>)
